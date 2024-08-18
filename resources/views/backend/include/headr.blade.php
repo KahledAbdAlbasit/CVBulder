@@ -30,7 +30,7 @@ https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,
     <link rel="stylesheet" href="{{asset('backend/css/app-light.css')}}" id="lightTheme">
     <link rel="stylesheet" href="{{asset('backend/css/app-dark.css')}}" id="darkTheme" disabled>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" >
-
+    <link rel="stylesheet" href="{{asset('css/dataTables.bootstrap4.css')}}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bootstrap.tagsinput/0.8.0/bootstrap-tagsinput.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 
@@ -42,6 +42,7 @@ https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,
                 border-radius: 4px;
 
             }
+            
         </style>
     </head>
 

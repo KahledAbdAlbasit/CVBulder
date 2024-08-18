@@ -62,6 +62,12 @@
                     <a class="nav-link pl-3" href="{{route('edit.skill')}}"><span class="ml-1 item-text">Skils</span>
                     </a>
                 </li>
+
+                <li class="nav-item">
+                    <a class="nav-link pl-3" href="{{route('edit.education')}}"><span class="ml-1 item-text">Education</span>
+                    </a>
+                </li>
+
                 </ul>
 
             </li>

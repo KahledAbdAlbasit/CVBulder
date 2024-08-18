@@ -36,12 +36,27 @@ Route::controller(backendController::class)->group(function () {
 
     Route::get('/user/skill', 'userSkill')->name('user.skill');
     Route::post('/save/skill', 'saveSkill')->name('save.skill');
-
     Route::get('/edit/skill', 'editSkill')->name('edit.skill');
     Route::post('/update/skill', 'updateSkill')->name('update.skill');
 
+
     Route::get('/user/education', 'userEducaton')->name('user.educaton');
     Route::post('/save/eduo', 'saveEduo')->name('save.eduo');
+    Route::get('/edit/education', 'editeducation')->name('edit.education');
+    Route::get('/edit/education/{id}', 'editeducationEducation')->name('edit.education.education');
+    Route::post('/update/education', 'updateEducation')->name('update.education');
+    Route::get('/delete/education{id}', 'deleteEducation')->name('delete.education');
+
+
+    Route::get('/user/language', 'userLanguage')->name('user.language');
+    Route::post('/save/language', 'saveLanguage')->name('save.language');
+    // imaes route
+    Route::get('/user/image', 'userImage')->name('user.image');
+    Route::post('/save/image', 'saveImage')->name('save.image');
+
+    Route::get('/cv', 'cv')->name('cv');
+    Route::get('/downloadCv', 'downloadCv')->name('downloadCv');
+
 
 });
 
